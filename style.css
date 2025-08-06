@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #a1ffce, #faffd1);
+  color: #1a1a1a;
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.3rem;
+  color: #3a3a3a;
+  text-shadow: 1px 1px 3px #ffffffc7;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.7;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(2, 160px);
+  grid-template-rows: repeat(2, 160px);
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 4px solid #ffffffaa;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), inset 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.green { background: #43f546; border-color: #3d9f4c; }
+.red   { background: #f58989; border-color: #f67171; }
+.yellow{ background: #ebd571; border-color: #f1cd29; }
+.blue  { background: #72b4fa; border-color: #509ce3; }
+
+.flash{
+  background-color: white;
+}
+
+.userflash{
+  background-color: green;
+}
+body.wrong {
+    background: rgb(243, 144, 144) !important;
+}
