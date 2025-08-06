@@ -19,7 +19,7 @@ Simon Says is a classic memory game where each level adds a new color to the seq
 
 🚀 How to Play
 
-1.Tap the Start Game button (works on both desktop and phone)
+1.Press any key to start.
 
 2.Watch the flashing sequence of colors
 
